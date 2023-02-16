@@ -71,7 +71,6 @@ function populaTabelaTarefas() {
     });
 }
 
-
 db.serialize( ()=> {
     criaTabelaUsr();
     populaTabelaUsr();
